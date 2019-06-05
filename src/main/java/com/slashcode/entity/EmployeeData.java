@@ -10,6 +10,7 @@ public class EmployeeData {
 	@Id
 	@GeneratedValue
 	private int empId;
+	//employee team
 	private String empName;
 	private double empSalary;
 	public EmployeeData(int empId, String empName, double empSalary) {
